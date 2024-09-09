@@ -22,6 +22,7 @@ export function constructSameAddressMap<T>(
 
 export const PERMIT2_MAPPING: AddressMap = {
   ...constructSameAddressMap("0x000000000022d473030f116ddee9f6b43ac78ba3"),
+  42161: "0x000000000022d473030f116ddee9f6b43ac78ba3",
   11155111: "0x000000000022d473030f116ddee9f6b43ac78ba3",
   12341234: "0x000000000022d473030f116ddee9f6b43ac78ba3",
 };
